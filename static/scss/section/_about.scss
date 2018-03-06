@@ -1,0 +1,120 @@
+.about {
+    padding-top: rem(60px);
+    &:after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 23px;
+        width: 100%;
+        bottom: 0;
+        background: url(../img/content/zigzag-line.png) center center;
+    }
+}
+
+.about-us {
+    height: 100%;    
+}
+.about-us__title, .about-us__descr {
+    margin-left: 16.6%;
+}
+
+.about-us__title {
+    margin-bottom: rem(40px);
+} 
+
+.about-us__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-us__item {
+    width: 50%;
+    margin-bottom: rem(55px);
+}
+
+.about-us__icon {
+    margin-bottom: rem(15px);
+}
+
+.about-us__text {
+    display: inline-block;
+    white-space: normal;
+    font-size: rem(20px);
+    font-weight: 700;
+    max-width: 80%;
+}
+
+.reviews__one {
+    position: relative;
+}
+
+.reviews__img {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.reviews__headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: rem(60px);
+    margin-top: rem(80px);
+}
+
+.reviews__headline, .reviews__descr, .reviews__autor {
+    padding-left: rem(175px);
+} 
+
+.btn_slider {
+    display: block;
+    padding: 15px 40px;
+}
+
+.reviews__descr {
+    margin-bottom: rem(50px);
+    font-size: rem(17px);
+}
+
+.reviews__autor {
+    margin-bottom: rem(100px);
+    display: inline-block;
+}
+
+.reviews__autor-name {
+    display: block;
+    margin-bottom: rem(15px);
+    font-weight: 700;
+}
+
+
+//slider
+
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    top: 75%;
+    width: 55px;
+    height: 30px;
+} 
+
+.bx-wrapper .bx-prev {
+    left: 85%;
+    background: url(../img/icon/left-arrow.svg) no-repeat;
+}
+
+.bx-wrapper .bx-next {
+    background: url(../img/icon/right-arrow.svg) no-repeat;
+    right: 0;
+    &:hover {
+        background-position: 0 0;
+    }
+    &:focus {
+        background-position: 0 0;
+    }
+}
+

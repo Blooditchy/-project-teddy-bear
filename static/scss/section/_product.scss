@@ -1,0 +1,94 @@
+.product {
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        height: 23px;
+        width: 100%;
+        bottom: 0;
+        background: url(../img/content/zigzag-line.png) center center;
+    }
+}
+.offer {
+    position: relative;
+    padding-top: rem(70px);
+    padding-bottom: rem(70px);
+    display: flex;
+}
+
+.offer__headline {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: rem(0px);
+}
+
+.offer__headline-text {
+    color: #72D5C1;
+    display: inline-block;
+    margin-right: rem(40px);
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100px;
+    text-align: center;
+}
+
+.offer__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.offer__left-order {
+    min-height: 100%;
+}
+
+.offer__left-descr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: rem(48px);
+    padding-top: 100px;
+}
+
+.offer__left-descr p {
+    margin-bottom: rem(60px);
+    line-height: 1.7;
+    font-size: rem(17px);
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.offer__list {
+    font-size: rem(15px);
+    margin-bottom: rem(90px);
+}
+
+.offer__item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: rem(10px);
+    padding-bottom: rem(15px);
+    width: 100%;
+}
+
+.offer__character {
+    display: inline-block;
+    width: 100px;
+}
+
+.offer__right {
+    width: 50%;
+}
+
+.offer__right-pic {
+    width: 100%;
+}
+
+.offer__left-prcie {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: rem(30px);
+    font-weight: 700;
+    font-size: rem(17px);
+}
+
